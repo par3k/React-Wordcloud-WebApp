@@ -6,6 +6,7 @@ import Home from './Home';
 import Texts from './Texts';
 import Words from './Words';
 import Detail from './Detail';
+import '../index.css';
 
 class App extends React.Component{
     render(){
