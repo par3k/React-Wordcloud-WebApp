@@ -13,7 +13,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import TextField from '@material-ui/core/TextField';
 
 const databaseURL = "https://word-cloud-b2cfa.firebaseio.com";
-const apiURL = 'http://localhost:5000';
+const apiURL = 'http://wordcloudpython.tk';
 
 const styles = theme => ({
     fab: {
@@ -128,7 +128,7 @@ class Detail extends React.Component {
         }
         this.setState(nextState);
     }
-    
+
     render() {
         const { classes } = this.props;
         return (
