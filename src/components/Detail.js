@@ -13,7 +13,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import TextField from '@material-ui/core/TextField';
 
 const databaseURL = "https://word-cloud-b2cfa.firebaseio.com";
-const apiURL = 'http://wordcloudpython.tk';
+const apiURL = 'http://0.0.0.0:80';
 
 const styles = theme => ({
     fab: {
